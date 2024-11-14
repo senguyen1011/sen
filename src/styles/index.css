@@ -1,0 +1,22 @@
+@import './colors.css';
+@import './sizes.css';
+@import './typography.css';
+@import './normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-1);
+  background-color: var(--background-2);
+}
+
+a {
+  color: var(--text-2);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--accent-text-2);
+  }
+}

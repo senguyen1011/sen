@@ -1,0 +1,120 @@
+/** TODO: Remove italic files if not needed */
+/** Be Vietnam Pro */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-Thin.ttf';
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-ExtraLight.ttf';
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-Light.ttf';
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-Regular.ttf';
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-Medium.ttf';
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-SemiBold.ttf';
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-Bold.ttf';
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-ExtraBoldttf';
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: '@/assets/fonts/BeVietnamPro-Black.ttf';
+  font-weight: 900;
+}
+
+/** Variables */
+:root {
+  --font-size-1: 0.75rem;
+  --font-size-2: 0.875rem;
+  --font-size-3: 1rem;
+  --font-size-4: 1.125rem;
+  --font-size-5: 1.25rem;
+  --font-size-6: 1.5rem;
+  --font-size-7: 1.75rem;
+  --font-size-8: 2.1875rem;
+  --font-size-9: 3.75rem;
+
+  --letter-space-1: 0.0025rem;
+  --letter-space-2: 0rem;
+  --letter-space-3: 0rem;
+  --letter-space-4: -0.0025rem;
+  --letter-space-5: -0.005rem;
+  --letter-space-6: -0.00625rem;
+  --letter-space-7: -0.0075rem;
+  --letter-space-8: -0.01rem;
+  --letter-space-9: -0.025rem;
+}
+
+html {
+  font-family: 'Be Vietnam Pro', 'Helvetica', 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+.font-1 {
+  font-size: var(--font-size-1);
+  letter-spacing: var(--letter-space-1);
+}
+.font-2 {
+  font-size: var(--font-size-2);
+  letter-spacing: var(--letter-space-2);
+}
+.font-3 {
+  font-size: var(--font-size-3);
+  letter-spacing: var(--letter-space-3);
+}
+.font-4 {
+  font-size: var(--font-size-4);
+  letter-spacing: var(--letter-space-4);
+}
+.font-5 {
+  font-size: var(--font-size-5);
+  letter-spacing: var(--letter-space-5);
+}
+.font-6 {
+  font-size: var(--font-size-6);
+  letter-spacing: var(--letter-space-6);
+}
+.font-7 {
+  font-size: var(--font-size-7);
+  letter-spacing: var(--letter-space-7);
+}
+.font-8 {
+  font-size: var(--font-size-8);
+  letter-spacing: var(--letter-space-8);
+}
+.font-9 {
+  font-size: var(--font-size-9);
+  letter-spacing: var(--letter-space-9);
+}
