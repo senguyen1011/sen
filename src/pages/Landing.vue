@@ -58,7 +58,6 @@
       </span>
     </Container>
     <div id="background"></div>
-    <div id="noise" />
   </section>
 </template>
 
@@ -69,25 +68,13 @@
     flex-direction: column;
     text-transform: uppercase;
 
-    #noise {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background-image: url(@/assets/misc/noise.svg);
-      background-repeat: repeat;
-      mix-blend-mode: multiply;
-      z-index: -1;
-    }
-
     #background {
       position: absolute;
       height: 100%;
       width: 100%;
-      background: radial-gradient(at 100% 76%, #524202 0px, transparent 50%),
-        radial-gradient(at 67.50714041851596% 63.50362827715356%, #665417 0px, transparent 50%),
-        radial-gradient(at 5% 15%, #362b00 0px, transparent 50%) var(--background-2);
-      mix-blend-mode: normal;
-      filter: blur(128px);
+      background: 
+        radial-gradient(at 100% 75%, #524202 0px, transparent 50%),
+        radial-gradient(at 10% 25%, #362b00 0px, transparent 50%) var(--background-2);
 
       background-size: 200% 200%;
       animation: gradient-ambient 30s linear infinite;
